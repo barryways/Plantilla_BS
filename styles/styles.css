@@ -1,3 +1,67 @@
+:root {
+    --bg-color: #484444;
+    --text-color: #FFFFFF;
+    --primary: #301AD3;
+    --secondary: #F93E3A;
+}
+
 .projects {
-    background-color: #555555;
+    background-color: var(--bg-color);
+}
+
+@font-face {
+    font-family: Rokkit;
+    src: url('../src/fonts/Rokkit/Rokkitt-Regular.ttf'), url('../src/fonts/Rokkit/Rokkitt-Bold.ttf'), url('../src/fonts/Rokkit/Rokkitt-Light.ttf');
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url('../src/fonts/Coolvetica/coolvetica\ rg.otf'), url('../src/fonts/Coolvetica/coolvetica\ rg\ it.otf');
+}
+
+.proy-card {
+    margin: 20px 0px;
+    --bs-gutter-x: 0 !important;
+}
+
+.proy-card {
+    border: var(--text-color) 5px solid;
+    border-radius: 15px;
+    padding: 12px 0px;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+}
+
+.proy-title {
+    font-family: Coolvetica;
+    color: var(--text-color);
+    font-size: 40px;
+    margin: 10px 40px !important;
+}
+
+.proy-text {
+    font-family: Rokkit;
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 10px 40px;
+}
+
+.proy-link {
+    margin: 10px 40px;
+}
+
+.proy-link {
+    font-family: Rokkit;
+    color: var(--primary);
+    font-size: 30px;
+}
+
+.proy-link:hover {
+    color: var(--secondary);
+}
+
+.projects {
+    padding: 40px;
 }
