@@ -1,6 +1,6 @@
 <div class="projects">
 <div class="row proy-card">
-        <div id="carouselExampleIndicators" class="carousel slide col-4 ms-2" data-bs-ride="true">
+        <div id="carouselExampleIndicators" class="carousel slide col-3 ms-2" data-bs-ride="true">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
