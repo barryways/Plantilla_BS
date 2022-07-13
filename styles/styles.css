@@ -32,7 +32,6 @@
 
 .carousel-inner {
     border-radius: 10px;
-    height: 350px;
     overflow: hidden;
 }
 
@@ -40,18 +39,20 @@
     font-family: Coolvetica;
     color: var(--text-color);
     font-size: 40px;
-    margin: 10px 40px !important;
+    margin: 0px !important;
+    padding: 10px 30px;
 }
 
 .proy-text {
     font-family: Rokkit;
     color: var(--text-color);
     font-size: 20px;
-    margin: 10px 40px;
+    padding: 10px 30px;
+    margin: 0px !important;
 }
 
 .proy-link {
-    margin: 10px 40px;
+    padding: 10px 30px;
 }
 
 .proy-link {
@@ -66,4 +67,67 @@
 
 .projects {
     padding: 40px;
+}
+
+.carousel {
+    width: 25% !important;
+}
+
+.card-text {
+    width: 74% !important;
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+
+.carousel-item img{
+    min-width: 100%;
+    min-height: 350px;
+    height: 350px;
+}
+
+@media screen and (max-width: 1050px) {
+    .carousel {
+        width: 33% !important;
+        height: 250px;
+    }
+    
+    .card-text {
+        width: 66% !important;
+    }
+
+    .carousel-item img{
+        min-width: 100%;
+        min-height: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .carousel {
+        width: 50% !important;
+    }
+    
+    .card-text {
+        width: 66% !important;
+    }
+
+    .carousel-item img{
+        min-width: 100%;
+        min-height: 250px;
+        height: 250px;
+    }
+
+    .proy-text {
+        display: none;
+    }
+    
+    .proy-link {
+        display: none;
+    }
+
+    .proy-title {
+        width: 49%;
+    }
 }
