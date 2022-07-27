@@ -9,6 +9,7 @@ include "modulos/link_html.php"
     include "projects/projects.php";
     include "aboutme/aboutme.php";
     include "contact/contact.php";
+    include "footer/footer.php";
     ?>
 </body>
 
